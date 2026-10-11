@@ -2,6 +2,7 @@
 .venv
 virtualenv
 *.pyc
+__pycache__/
 dist
 build
 *.egg-info
@@ -9,3 +10,6 @@ upload_new_version.sh
 .coverage
 coverage.xml
 .DS_STORE
+# Downloaded transcripts (generated output, kept out of git)
+transcripts/*
+!transcripts/.gitkeep
